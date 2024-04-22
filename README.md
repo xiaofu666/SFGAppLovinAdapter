@@ -1,0 +1,2 @@
+# SFGAppLovinAdapter
+AppLovinAdapter
