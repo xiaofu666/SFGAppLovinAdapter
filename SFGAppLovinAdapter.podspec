@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/xiaofu666/SFGAppLovinAdapter'
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author       = { "小富" => "3290235031@qq.com" }
-    s.source       = { :git => 'https://github.com/xiaofu666/SFGAppLovinAdapter.git', :tag => s.version.to_s }
+    s.source = { :http => "https://github.com/xiaofu666/SFGAppLovinAdapter/releases/download/#{s.version}/SFGAppLovinAdapter.zip" }
 
     s.platform     = :ios, "12.0"
     s.ios.deployment_target = '12.0'
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
     s.xcconfig =   { 'OTHER_LDFLAGS' => ['-lObjC']}
     s.pod_target_xcconfig =   { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i' }
 
-    s.vendored_frameworks = "AppLovinAdapter.xcframework"
+    s.vendored_frameworks = "SFGAppLovinAdapter/AppLovinAdapter.xcframework"
 end
