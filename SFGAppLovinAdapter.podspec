@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'SFGAppLovinAdapter'
-    s.version          = '12.3.1.0'
+    s.version          = '12.3.1.1'
     s.summary          = 'AppLovinAdapter'
 
     s.description      = <<-DESC
